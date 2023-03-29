@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "mehraban.fatemeh73@gmail.com",
+      "password": "12",
+      "search": [
+        "Aznā",
+        "Yazd",
+        "Tehran",
+        "Yazd",
+        "Tehran"
+      ],
+      "id": 1
+    },
+    {
+      "email": "solmaz.mehraban@yahoo.com",
+      "password": "1",
+      "search": [
+        "rasht",
+        "Tehran"
+      ],
+      "id": 2
+    }
+  ]
+}

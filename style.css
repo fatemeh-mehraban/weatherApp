@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body , #search {
+    font-family: 'Lato', sans-serif;
+}
+ @keyframes activetab {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+#loginbtn:hover , #registerbtn:hover{
+    animation-name: activetab;
+    animation-duration: 0.5s;
+}
+@keyframes move {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    
+    }
+  }
+  
+  #login , #register{
+    animation-name: move;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+} 
+
+  
