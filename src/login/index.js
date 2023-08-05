@@ -40,7 +40,7 @@ export const loginUser = ()=>{
 }
 export async function getdb(x) {
     try {
-      const res = await fetch(`http://localhost:3000/users${x}`);
+      const res = await fetch(`http://localhost:3004/users${x}`);
       return await res.json()
     } catch (error) {
       console.log(error);

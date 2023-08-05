@@ -38,7 +38,7 @@ export async function getApi() {
     export function postSearchDb() {
         getdb(`?email=${userlogin.email}`).then(res=>{ 
             // postData(`http://localhost:3000/users/${res[0].id}`,{data})
-            postData(`http://localhost:3000/users/${res[0].id}`,{
+            postData(`http://localhost:3004/users/${res[0].id}`,{
                 email:userlogin.email,
                 password:userlogin.password,
                 search:searchItem
